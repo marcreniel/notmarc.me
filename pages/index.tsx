@@ -1,6 +1,7 @@
 import Head from "next/head"
-import Landing from "../components/landing.js"
-import About from "../components/about.js"
+import Navbar from "../components/navbar.jsx"
+import Landing from "../components/landing.jsx"
+import About from "../components/about.jsx"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico"/>
       </Head>
+      <Navbar/>
         <Landing/>
           <div className="z-0 relative">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230" className="absolute bottom-0" aria-hidden="true">
