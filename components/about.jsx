@@ -2,7 +2,9 @@ export default function About () {
     return (
         <div id="about" className="bg-sky-white h-auto md:px-24 md:py-12">
           <div className="flex flex-col md:flex-row-reverse">
-            <img src="https://media.licdn.com/dms/image/D5603AQGyMSUyAf8e2Q/profile-displayphoto-shrink_400_400/0/1665306343613?e=1677715200&v=beta&t=bCrhArsl0oFihV9ErR_pDmva1Rd3JTqvkXEdyWsI7JA" className="rounded-full mt-10 object-contain h-32 sm:h-64 max-w-sm shadow-2xl mb-5"/>
+            <div className="mt-10 mb-5">
+              <img src="/pfp.png" className="rounded-full scale-75 md:scale-100 shadow-2xl"/>
+            </div>
             <div className="text-gray-800 text-center font-mono px-6 md:text-left">
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
