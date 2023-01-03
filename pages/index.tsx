@@ -1,11 +1,11 @@
 import Head from "next/head"
-import Navbar from "../components/navbar.jsx"
-import Landing from "../components/landing.jsx"
-import About from "../components/about.jsx"
+import Navbar from "../components/navbar"
+import Landing from "../components/landing"
+import About from "../components/about"
 import Portfolio from "../components/portfolio"
+import Contact from "../components/contact"
 
-
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Head>
@@ -34,6 +34,12 @@ export default function Home() {
           </svg>
         </div>
         <Portfolio/>
+        <div className="z-0 relative">
+        <svg data-aos="zoom-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180" className="absolute bottom-0">
+           <path fill="#1e2837" fillOpacity="1" d="M0,96L80,96C160,96,320,96,480,112C640,128,800,160,960,160C1120,160,1280,128,1360,112L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+          </svg>
+        </div>
+        <Contact/>
     </>
   )
 }
