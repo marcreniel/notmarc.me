@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 export default function Landing () {
     return (
         <div id="home" className="bg-navy-blue text-white relative min-h-screen w-full items-center flex flex-col justify-center">
