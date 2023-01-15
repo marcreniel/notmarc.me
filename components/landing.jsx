@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 
-export default function Landing () {
+export default function Landing (props) {
     return (
-        <div id="home" className="bg-navy-blue text-white relative min-h-screen w-full items-center flex flex-col justify-center">
+        <div id={props.id} className="bg-navy-blue text-white relative min-h-screen w-full items-center flex flex-col justify-center">
             <div className="pb-36 sm:mt-28 font-mono flex flex-col sm:flex-row">
                 <motion.img 
                         initial={{ opacity: 0, scale: 0.5 }}

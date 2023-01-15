@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-  });
+    window.history.scrollRestoration = 'manual'
+  }, []);
   return <Component {...pageProps} />
 }

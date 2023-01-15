@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+--scroll-behavior: smooth!important;
+scroll-behavior: smooth!important;
+}
+
 .typewriter {
   overflow: hidden;
   border-right: .20em solid white;

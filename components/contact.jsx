@@ -1,6 +1,6 @@
-export default function Contact () {
+export default function Contact (props) {
     return (
-        <div id="contact">
+        <div id={props.id}>
           <div className="p-10 footer font-mono bg-gray-800 text-neutral-content">
             <div>
             </div>

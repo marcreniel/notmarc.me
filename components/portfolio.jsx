@@ -1,6 +1,6 @@
-export default function Portfolio () {
+export default function Portfolio (props) {
     return (
-        <div id="portfolio" className="bg-hue-gray text-sky-white font-mono h-auto md:px-24 md:py-12 mb-20">
+        <div id={props.id} className="bg-hue-gray text-sky-white font-mono h-auto md:px-24 md:py-12 mb-20">
             <div className="flex flex-col items-center justify-center">
                 <h1 data-aos="zoom-out" className="mt-10 mb-8 text-4xl font-medium">
                     Portfolio

@@ -1,6 +1,6 @@
-export default function About () {
+export default function About (props) {
     return (
-        <div id="about" className="bg-sky-white h-auto md:px-24 md:py-12">
+        <div id={props.id} className="bg-sky-white h-auto md:px-24 md:py-12">
           <div className="flex flex-col md:flex-row-reverse">
             <div className="mt-10 mb-5">
               <img src="/pfp.png" className="rounded-full scale-75 md:scale-100 shadow-2xl"/>
