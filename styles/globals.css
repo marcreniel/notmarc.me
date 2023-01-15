@@ -8,9 +8,8 @@
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .05em;
-  animation-delay: 5s;
   animation:
-    typing 2.5s,
+    typing 1.75s 0.5s,
     blink-caret .75s step-end infinite;
 }
 

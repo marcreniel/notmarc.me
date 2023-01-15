@@ -2,7 +2,7 @@ export default function Portfolio () {
     return (
         <div id="portfolio" className="bg-hue-gray text-sky-white font-mono h-auto md:px-24 md:py-12 mb-20">
             <div className="flex flex-col items-center justify-center">
-                <h1 data-aos="zoom-out" className="mt-5 mb-8 text-4xl font-medium">
+                <h1 data-aos="zoom-out" className="mt-10 mb-8 text-4xl font-medium">
                     Portfolio
                 </h1>
                 <div className="flex flex-col lg:space-x-5 lg:flex-row">
