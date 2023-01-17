@@ -9,7 +9,7 @@ export default function Contact (props) {
             </h1> 
             <div>
               <span className="footer-title">Socials</span> 
-              <a href="https://github.com/imedra" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a> 
+              <a href="https://github.com/marcreniel" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a> 
               <a href="https://twitter.com/notMarc_" target="_blank" rel="noopener noreferrer" className="link link-hover">Twitter</a> 
               <a href="https://www.linkedin.com/in/marcreniel" target="_blank" rel="noopener noreferrer" className="link link-hover">LinkedIn</a> 
             </div> 

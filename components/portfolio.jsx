@@ -7,7 +7,7 @@ export default function Portfolio (props) {
                 </h1>
                 <div className="flex flex-col lg:space-x-5 lg:flex-row">
                     <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                        <figure><img src="/maple.png" alt="Shoes" /></figure>
+                        <figure><img src="/maple.png" alt="Maple" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             Maple
@@ -26,7 +26,7 @@ export default function Portfolio (props) {
                         </div>
                     </div>
                     <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                        <figure><img src="/pynq.png" alt="Shoes" /></figure>
+                        <figure><img src="/pynq.png" alt="Pynq" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             Pynq-Z2 CV Demo
@@ -42,7 +42,7 @@ export default function Portfolio (props) {
                         </div>
                     </div>
                     <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                        <figure><img src="/discordcgpt.png" alt="Shoes" /></figure>
+                        <figure><img src="/discordcgpt.png" alt="discordCGPT" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             discordCGPT
@@ -61,7 +61,7 @@ export default function Portfolio (props) {
                 </div>
                     <div className="flex flex-col lg:space-x-5 lg:flex-row">
                         <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                            <figure><img src="/headphones.png" alt="Shoes" /></figure>
+                            <figure><img src="/headphones.png" alt="Headphones" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             Headphones
@@ -78,7 +78,7 @@ export default function Portfolio (props) {
                         </div>
                     </div>
                     <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                            <figure><img src="/chivaxtrack.png" alt="Shoes" /></figure>
+                            <figure><img src="/chivaxtrack.png" alt="ChiVaxTrack" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             ChiVaxTrack
@@ -96,7 +96,7 @@ export default function Portfolio (props) {
                         </div>
                     </div>
                     <div className="card w-64 md:w-80 bg-mist-black my-3 shadow-xl">
-                            <figure><img src="/shrtnninja.png" alt="Shoes" /></figure>
+                            <figure><img src="/shrtnninja.png" alt="shrtn.ninja" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             shrtn.ninja
