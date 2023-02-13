@@ -14,10 +14,10 @@ export default function About (props) {
                 <span className="font-bold">Languages</span>: JavaScript, TypeScript, HTML, CSS, Java, Python
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Technologies</span>: Node.js, React, Next, Tailwind, Axios
+                <span className="font-bold">Technologies</span>: Node.js, React, React Native, Next, Tailwind, Axios
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Favorite Food</span>: Steak
+                <span className="font-bold">Notable Experience</span>: HackIllinois 2023, Cohere Hackathon 2023 (Virtual), Fermilab TARGET Intern
                 </h3> 
             </div>
           </div>
