@@ -18,7 +18,7 @@ export default function Portfolio (props) {
                                     </div>
                                     <p>An application that uses a custom model of Cohere&apos;s Generate to scan and summarize notes on the fly.</p>
                                     <div className="card-actions justify-end">
-                                    <div className="badge badge-accent badge-outline">Cohere Hackathon 2023</div>
+                                    <div className="badge badge-accent badge-outline">Cohere Hackathon</div>
                                     <div className="badge badge-outline">React Native</div>
                                     <div className="badge badge-outline">TypeScript</div>
                                     <div className="badge badge-outline">Python</div> 
@@ -55,7 +55,7 @@ export default function Portfolio (props) {
                             </div>
                             <p>Contributed to Live Pokemon Interface Demo, a CV demonstrator for Fermilab&apos;s hls4ml Demo Lab at DEFCON 30.</p>
                             <div className="card-actions justify-end">
-                            <div className="badge badge-accent badge-outline">Fermilab TARGET Internship</div>
+                            <div className="badge badge-accent badge-outline">Fermilab Internship</div>
                             <div className="badge badge-outline">Xiilinx Vivado</div>
                             <div className="badge badge-outline">Python</div>
                             </div>
