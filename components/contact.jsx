@@ -9,13 +9,13 @@ export default function Contact (props) {
             </h1> 
             <div>
               <span className="footer-title">Socials</span> 
-              <a href="https://github.com/marcreniel" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a> 
-              <a href="https://twitter.com/notMarc_" target="_blank" rel="noopener noreferrer" className="link link-hover">Twitter</a> 
               <a href="https://www.linkedin.com/in/marcreniel" target="_blank" rel="noopener noreferrer" className="link link-hover">LinkedIn</a> 
+              <a href="https://github.com/marcreniel" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a> 
+              <a href="https://twitter.com/marcrenielb" target="_blank" rel="noopener noreferrer" className="link link-hover">Twitter</a> 
             </div> 
            <div>
             <span className="footer-title">Email</span> 
-            <a href="mailto:marcbernardino2005@gmail.com"className="link link-hover">marc@notmarc.me</a>
+            <a href="mailto:marc@notmarc.me"className="link link-hover">marc@notmarc.me</a>
           </div>
           <div>
             <span className="footer-title">Resume</span> 
