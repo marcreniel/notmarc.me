@@ -9,7 +9,7 @@ export default function About (props) {
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">I am an incoming student at <span className="font-bold">Stanford University</span> pursuing Computer Science and proficient in full-stack Web Development. I have deep passion in exploring and expanding my knowledge across various domains such as Natural Language Processing, Computer Vision, Data Structures and Algorithms, and much more.</p>
+                <p className="my-5 text-lg lg:pr-24">I am a student at <span className="font-bold">Stanford University</span> pursuing Computer Science and proficient in full-stack Web Development. I have deep passion in exploring and expanding my knowledge across various domains such as Natural Language Processing, Computer Vision, Data Structures and Algorithms, and much more.</p>
                 <h3 className="mb-2 text-l">
                 <span className="font-bold">Languages</span>: JavaScript/TypeScript, Java, Python, HTML, CSS
                 </h3>
@@ -17,8 +17,8 @@ export default function About (props) {
                 <span className="font-bold">Technologies</span>: Node.js, React/React Native, Next.js, Flask, Express, MongoDB
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Notable Experience</span>:  Fermilab TARGET Intern, HackIllinois 2023, Cohere Hackathon 2023 (Virtual)
-                </h3> 
+                  <span className="font-bold">Notable Experience</span>:  SWE Intern @ Notebook Labs, Scientific Computation Intern @ Fermilab (TARGET)
+                </h3>
             </div>
           </div>
         </div>
