@@ -1,7 +1,7 @@
 export default function Navbar () {
     return (
         <div className="flex justify-center">
-            <div className="navbar w-auto font-mono text-s shadow-2xl bg-base-100 rounded-box fixed mt-5 z-50">
+            <div className="navbar w-auto font-mono shadow-2xl text-s bg-base-100 rounded-box fixed mt-5 z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost md:hidden">
@@ -14,6 +14,9 @@ export default function Navbar () {
                             <li>
                                 <a href="#about">About</a>
                             </li> 
+                            <li>
+                                <a href="#skills">Skills</a>
+                            </li>
                             <li>
                                 <a href="#portfolio">Portfolio</a>
                             </li>
@@ -31,6 +34,9 @@ export default function Navbar () {
                         <li>
                             <a href="#about">About</a>
                         </li> 
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
                         <li>
                             <a href="#portfolio">Portfolio</a>
                         </li>
