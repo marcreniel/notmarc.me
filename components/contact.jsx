@@ -14,12 +14,14 @@ export default function Contact (props) {
               <a href="https://twitter.com/marcrenielb" target="_blank" rel="noopener noreferrer" className="link link-hover">Twitter</a> 
             </div> 
            <div>
-            <span className="footer-title">Email</span> 
-            <a href="mailto:marc@notmarc.me"className="link link-hover">marc@notmarc.me</a>
+            <span className="footer-title">Emails</span> 
+            <a href="mailto:marc@notmarc.me"className="link link-hover">marc@notmarc.me (Work) </a>
+            <a href="mailto:bernardino@stanford.edu"className="link link-hover">bernardino@stanford.edu (Academic)</a>
+
           </div>
           <div>
             <span className="footer-title">Resume</span> 
-            <a href="" target="_blank" rel="noopener noreferrer" className="link link-hover">Coming Soon!</a> 
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="link link-hover">Click here</a> 
           </div>
       </div>
       </div>    

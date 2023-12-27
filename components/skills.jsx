@@ -5,8 +5,8 @@ export default function Skills (props) {
                 <h1 data-aos="zoom-out" className="mt-10 md:mt-0 mb-8 text-4xl font-medium">
                     Skills
                 </h1>
-                <div className="flex flex-col xl:space-x-5 xl:flex-row">
-                    <div className="card md:w-72 h-30 bg-mist-black my-3 shadow-xl">
+                <div className="flex flex-col items-center md:items-stretch xl:space-x-5 xl:flex-row">
+                    <div className="card w-11/12 md:w-72 bg-mist-black my-3 shadow-xl">
                         <div className="card-body">
                             <h2 className="card-title">
                             📜 Languages 
@@ -21,7 +21,7 @@ export default function Skills (props) {
                             </div>
                         </div>
                     </div>
-                    <div className="card md:w-72 bg-mist-black my-3 shadow-xl">
+                    <div className="card w-11/12 md:w-72 bg-mist-black my-3 shadow-xl">
                         <div className="card-body">
                             <h2 className="card-title">
                             🖥️ Techologies
@@ -40,7 +40,7 @@ export default function Skills (props) {
                             </div>
                         </div>
                     </div>
-                    <div className="card md:w-72 bg-mist-black my-3 shadow-xl">
+                    <div className="card w-11/12 md:w-72 bg-mist-black my-3 shadow-xl">
                         <div className="card-body">
                             <h2 className="card-title">
                             🔧 Developer Tools 
@@ -56,7 +56,7 @@ export default function Skills (props) {
                             </div>
                         </div>
                     </div>
-                    <div className="card md:w-72 bg-mist-black my-3 shadow-xl">
+                    <div className="card w-11/12 md:w-72 bg-mist-black my-3 shadow-xl">
                         <div className="card-body">
                             <h2 className="card-title">
                             🌐 Databases 

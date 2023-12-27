@@ -1,4 +1,6 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router'
 import { motion } from "framer-motion"
 import Head from "next/head"
 import Navbar from "../components/navbar"
@@ -9,6 +11,12 @@ import Portfolio from "../components/portfolio"
 import Contact from "../components/contact"
 
 export default function Index() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push('/');
+  }, []);
+
   return (
     <>
       <ParallaxProvider>
