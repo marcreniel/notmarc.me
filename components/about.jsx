@@ -12,6 +12,7 @@ export default function About (props) {
               <p className="my-5 text-lg lg:pr-24">Hey! Im Marc Bernardino, an undergraduate student at <span className="font-bold">Stanford University</span> majoring in Computer Science. My passions lie in creating experiences that bring real-world value to others. Whether it be through projects, research, or the industry, I strive to make an impact through my work. </p>
               <p className="my-5 text-lg lg:pr-24">I am proficient in full-stack web development, while my ambition to learn drives me to further explore Blockchain Technology and Artificial Intelligence.</p>
               <h3 className="mb-2 text-l">Looking to reach me for work, research, or just to chat? I dont mind! Feel free to <a className="underline" href="#contact">contact</a> me!</h3>
+              <h3 className="mb-2 italic text-[0.9rem]">What about my resume? <a className="underline" href="#contact">click me!</a></h3>
           </div>
         </div>
       </div>
