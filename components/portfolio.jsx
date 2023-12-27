@@ -22,7 +22,7 @@ export default function Portfolio (props) {
                             </div>
                             <p>A decentralized peer-to-peer cryptocurrency exchange application built using zk-SNARKs.</p>
                             <div className="card-actions justify-end">
-                            <div className="badge badge-outline badge-success">Notebook Labs Internship</div>
+                            <div className="badge badge-outline badge-success text-[0.5rem]">Notebook Labs Internship</div>
                             <div className="badge badge-outline">TypeScript</div>
                             <div className="badge badge-outline">Next.js</div> 
                             <div className="badge badge-outline">Express.js</div> 
