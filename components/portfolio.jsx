@@ -3,8 +3,9 @@ export default function Portfolio (props) {
         <div id={props.id} className="bg-hue-gray text-sky-white font-mono h-auto md:px-24 md:py-12 mb-20">
             <div className="flex flex-col items-center justify-center">
                 <h1 data-aos="zoom-out" className="mt-10 md:mt-0 mb-8 text-4xl font-medium">
-                    Portfolio <span className="text-xs">(psst... scroll horizontally!)</span>
+                    Portfolio 
                 </h1>
+                <p className="text-xs translate-y-[-20px]">(psst... scroll horizontally!)</p>
                 <div className="carousel carousel-end rounded-box w-3/4 md:w-full space-x-10 pb-5">
                     <div className="carousel-item w-72 h-[35rem]">
                         <div className="card bg-mist-black my-3 shadow-xl">
