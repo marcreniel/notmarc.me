@@ -7,7 +7,7 @@ export default function Portfolio (props) {
                 </h1>
                 <p className="text-xs translate-y-[-20px]">(psst... scroll horizontally!)</p>
                 <div className="carousel carousel-end rounded-box w-3/4 md:w-full space-x-10 pb-5">
-                    <div className="carousel-item w-72 h-[35rem]">
+                    <div className="carousel-item w-72">
                         <div className="card bg-mist-black my-3 shadow-xl">
                         <figure><img src="/zephyr.png" alt="Zephyr" /></figure>
                         <div className="card-body">
