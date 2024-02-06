@@ -22,6 +22,9 @@ export default function Index() {
       <ParallaxProvider>
         <Head>
           <title>Marc Bernardino</title>
+          <meta name="description" content="A software engineer, computer scientist, and student striving to make impact through code."/>
+          <meta name="keywords" content="Stanford, Computer Science, Marc Bernardino, Marc Reniel Bernardino, Software Engineer, Coding"/>
+          <meta name="author" content="Marc Bernardino"/>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico"/>
         </Head>
