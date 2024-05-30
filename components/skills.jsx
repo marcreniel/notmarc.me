@@ -35,7 +35,10 @@ export default function Skills (props) {
                                 <div className="badge badge-outline badge-info">TailwindCSS</div>
                                 <div className="badge badge-outline badge-info">Flask</div>
                                 <div className="badge badge-outline badge-info">TensorFlow</div>
+                                <div className="badge badge-outline badge-info">LangChain</div>
+                                <div className="badge badge-outline badge-info">Selenium</div>
                                 <div className="badge badge-outline badge-info">PyTorch</div>
+                                <div className="badge badge-outline badge-info">SKLearn</div>
                                 <div className="badge badge-outline badge-info">OpenCV</div>
                             </div>
                         </div>
@@ -53,6 +56,7 @@ export default function Skills (props) {
                                 <div className="badge badge-outline badge-info">Google Cloud Platform</div>
                                 <div className="badge badge-outline badge-info">Oracle Cloud</div>
                                 <div className="badge badge-outline badge-info">DigitalOcean</div>
+                                <div className="badge badge-outline badge-info">Supabase</div>
                             </div>
                         </div>
                     </div>
@@ -62,8 +66,10 @@ export default function Skills (props) {
                             🌐 Databases 
                             </h2>
                             <div className="card-actions justify-start">
+                                <div className="badge badge-outline badge-info">PostgreSQL</div>
                                 <div className="badge badge-outline badge-info">Firebase</div>
                                 <div className="badge badge-outline badge-info">MongoDB</div>
+                                <div className="badge badge-outline badge-info">Convex</div>
                                 <div className="badge badge-outline badge-info">Amazon DynamoDB</div>
                             </div>
                         </div>
