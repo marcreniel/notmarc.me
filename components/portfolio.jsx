@@ -22,7 +22,6 @@ export default function Portfolio (props) {
                             </div>
                             <p>An Agentic AI email assistant that is able to answer questions on a user&apos;s inbox using RAG and execute actions on the user&apos;s behalf.</p>
                             <div className="card-actions justify-end">
-                            <div className="badge badge-outline badge-warning text-xs">Work in Progress</div>
                             <div className="badge badge-outline">Next.js</div>
                             <div className="badge badge-outline">TypeScript</div>
                             <div className="badge badge-outline">LangChain</div> 
